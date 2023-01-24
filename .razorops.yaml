@@ -1,0 +1,8 @@
+tasks:
+  hello-job:
+    steps:
+    - git --version
+    - checkout
+    - commands:
+      - |
+        ./newbash.sh
