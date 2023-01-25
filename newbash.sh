@@ -1,11 +1,8 @@
 #!/bin/bash
-curl --request GET \
-  --url 'https://testjiraforrazorops.atlassian.net//rest/api/3/events' \
-  --user 'rajashekarkoppula5@gmail.com:V1ZoLlhvbDOsAznghuZoF3CD' \
-  --header 'Accept: application/json'
-
 # Set the endpoint URL
 URL="https://codenginx.atlassian.net/rest/api/2/issue"
+TOKEN=Y9v4mMpf86DTRsQOTBTL035A
+EMAIL=rajashekarkoppula5@gmail.com
 
 # Set the request data
 DATA='{
@@ -23,4 +20,4 @@ DATA='{
 }'
 
 # Send the POST request with access token
-curl -X POST -H "Content-Type: application/json" -H "Authorization: Basic $(echo -n rajashekarkoppula5@gmail.com:V1ZoLlhvbDOsAznghuZoF3CD | base64)" -d "$DATA" "$URL"
+curl -X POST -H "Content-Type: application/json" -H "Authorization: Basic $(echo -n $EMAIL:$TOKEN | base64)" -d "$DATA" "$URL"
