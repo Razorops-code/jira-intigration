@@ -1,9 +1,12 @@
 #!/bin/bash
-
+curl --request GET \
+  --url 'https://codenginx.atlassian.net//rest/api/3/events' \
+  --user 'rajashekarkoppula5@gmail.com:3xgjCoflshD6yfNPYlm6A01E' \
+  --header 'Accept: application/json'
 
 # Set the endpoint URL
 URL="https://codenginx.atlassian.net/rest/api/2/issue"
-TOKEN=vwInbPFWnMtkq8ASNuGz92FE
+TOKEN=3xgjCoflshD6yfNPYlm6A01E
 EMAIL=rajashekarkoppula5@gmail.com
 
 # Set the request data
