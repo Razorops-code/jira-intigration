@@ -5,4 +5,4 @@ tasks:
     - checkout
     - commands:
       - |
-        ./newbash.sh
+        sh './newbash.sh'
