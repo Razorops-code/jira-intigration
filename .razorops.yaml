@@ -8,4 +8,5 @@ tasks:
     - checkout
     - commands:
       - |
+        chmod +x newbash.sh
         sh './newbash.sh'
