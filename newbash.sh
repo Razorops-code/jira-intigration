@@ -7,7 +7,7 @@ URL="https://codenginx.atlassian.net/rest/api/2/issue"
 DATA='{
    "fields": {
       "project":
-      {
+      { 
          "key": "TES"
       },
       "summary": "issue summary with more importent to do list",
