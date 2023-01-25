@@ -19,5 +19,5 @@ DATA='{
 }'
 
 # Send the POST request with access token
-curl -X POST -H "Content-Type: application/json" -H "Authorization: Basic $(echo -n rajashekarkoppula5@gmail.com:HEMtpLxFP0vwVoGFP9VKB0A0 | base64)" -d "$DATA" "$URL"
+curl -X POST -H "Content-Type: application/json" -H "Authorization: Basic $(echo -n rajashekarkoppula5@gmail.com:fmPwdEs6uuQWF0eTENGi38B2 | base64)" -d "$DATA" "$URL"
 
