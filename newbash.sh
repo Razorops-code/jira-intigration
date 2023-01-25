@@ -6,7 +6,7 @@ curl --request GET \
 
 # Set the endpoint URL
 URL="https://codenginx.atlassian.net/rest/api/2/issue"
-TOKEN=Y9v4mMpf86DTRsQOTBTL035A
+TOKEN=vwInbPFWnMtkq8ASNuGz92FE
 EMAIL=rajashekarkoppula5@gmail.com
 
 # Set the request data
