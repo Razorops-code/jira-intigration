@@ -1,7 +1,7 @@
 #!/bin/bash
 curl --request GET \
   --url 'https://testjiraforrazorops.atlassian.net//rest/api/3/events' \
-  --user 'rajashekarkoppula5@gmail.com:uk2GyIGX4thuAS3mi8K2FA65' \
+  --user 'rajashekarkoppula5@gmail.com:YhTo4dJjRXmNCtvDi0Cj6715' \
   --header 'Accept: application/json'
 
 # Set the endpoint URL
@@ -23,4 +23,4 @@ DATA='{
 }'
 
 # Send the POST request with access token
-curl -X POST -H "Content-Type: application/json" -H "Authorization: Basic $(echo -n rajashekarkoppula5@gmail.com:uk2GyIGX4thuAS3mi8K2FA65 | base64)" -d "$DATA" "$URL"
+curl -X POST -H "Content-Type: application/json" -H "Authorization: Basic $(echo -n rajashekarkoppula5@gmail.com:YhTo4dJjRXmNCtvDi0Cj6715 | base64)" -d "$DATA" "$URL"
