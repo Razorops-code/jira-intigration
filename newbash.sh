@@ -1,4 +1,8 @@
 #!/bin/bash
+curl --request GET \
+  --url 'https://testjiraforrazorops.atlassian.net//rest/api/3/events' \
+  --user 'rajashekarkoppula5@gmail.com:Arrbtm4O9OGfI4YwDJxuA7B3' \
+  --header 'Accept: application/json'
 
 # Set the endpoint URL
 URL="https://codenginx.atlassian.net/rest/api/2/issue"
