@@ -7,11 +7,11 @@ URL="https://codenginx.atlassian.net/rest/api/2/issue"
 DATA='{
    "fields": {
       "project":
-      { 
+      {
          "key": "TES"
       },
-      "summary": "issue summary with more importent",
-      "description": "issue description",
+      "summary": "issue summary with more importent to do list",
+      "description": "issue description for more bettert",
       "issuetype": {
          "id": "10009"
       }
@@ -19,5 +19,4 @@ DATA='{
 }'
 
 # Send the POST request with access token
-curl -X POST -H "Content-Type: application/json" -H "Authorization: Basic $(echo -n rajashekarkoppula5@gmail.com:D1UaysLOSgZAUbiIJ8h128B7 | base64)" -d "$DATA" "$URL"
-
+curl -X POST -H "Content-Type: application/json" -H "Authorization: Basic $(echo -n rajashekarkoppula5@gmail.com:Arrbtm4O9OGfI4YwDJxuA7B3 | base64)" -d "$DATA" "$URL"
