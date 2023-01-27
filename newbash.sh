@@ -1,7 +1,7 @@
 #!/bin/bash
 # Set the endpoint URL
 URL="https://codenginx.atlassian.net/rest/api/2/issue"
-TOKEN=l8Ate386eTRoGRmPq9PVF0AB
+TOKEN=x2Pmgwz29GNJaWrshxyi437F
 EMAIL=rajashekarkoppula5@gmail.com
 
 # Set the request data
