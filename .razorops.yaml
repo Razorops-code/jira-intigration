@@ -2,7 +2,7 @@ global:
   runner:
     os_image: ubuntu
 tasks:
-  hello-job:
+  jira-job:
     steps:
     - git --version
     - checkout
