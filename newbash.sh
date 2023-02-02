@@ -1,20 +1,20 @@
 #!/bin/bash
 # Set the endpoint URL
-URL="https://codenginx.atlassian.net/rest/api/2/issue"
-TOKEN=x2Pmgwz29GNJaWrshxyi437F
-EMAIL=rajashekarkoppula5@gmail.com
+URL="https://shivaaws.atlassian.net/rest/api/2/issue"
+TOKEN=ATATT3xFfGF0QN-Lo9UbchmpydUU5LvxfsPY5ZhRshkZPrPTOoN-PvxjhuC5ID57gLqCutXwugw3wu5cJm2N4VZQhxK961SNUItXdH55J38E6G4EXlA7MzdZBSxxR6uiU52VPSnO1DP7oxnq1gJVO8UQRDULFttwFgIErgkKad_xRuW2mq-UTyA=88736AE7
+EMAIL=shivaaws9@gmail.com
 
 # Set the request data
 DATA='{
    "fields": {
       "project":
       {
-         "key": "TES"
+         "key": "SHIV"
       },
       "summary": "issue summary with more importent to do list",
       "description": "issue description for more bettert",
       "issuetype": {
-         "id": "10009"
+         "id": "10003"
       }
    }
 }'
